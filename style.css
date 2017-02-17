@@ -29,29 +29,47 @@
   font-size: 20px;
 }
 
+
+.loginB{
+  height:35px;
+  background-color: #4285f4 !important;
+  color:white;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+
+
 ul{
   list-style-type: none;
   margin:0;
   padding:0;
-  height: 60px;
+  padding-right:15px;
+  height: 20px;
 }
 
 
 li{
   display:inline;
-
+  padding-left:0;
 
 
 }
 
 li a{
   float:right;
-  width:150px;
+  width:120px;
+  height:25px;
   text-align: center;
   text-decoration:none;
-  
+  color:black;
+  opacity:.75;
+  font-size:13px;
+  line-height: 30px;
 }
-
+li a:hover{
+  text-decoration:underline;
+}
 
 .sbuttons{
   border:none;
